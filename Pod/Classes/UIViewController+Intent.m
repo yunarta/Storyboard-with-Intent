@@ -11,12 +11,12 @@ static const void *ArgumentsTagKey = &ArgumentsTagKey;
 
 @implementation UIViewController (Intent)
 
-- (void)setArguments:(WSIntent *)arguments
+- (void)setIntent:(WSIntent *)intent
 {
-    objc_setAssociatedObject(self, ArgumentsTagKey, arguments, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, ArgumentsTagKey, intent, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
-- (WSIntent *)arguments
+- (WSIntent *)intent
 {
     return objc_getAssociatedObject(self, ArgumentsTagKey);
 }
