@@ -1,0 +1,14 @@
+PODS:
+  - WorksStoryboard (0.1.0)
+
+DEPENDENCIES:
+  - WorksStoryboard (from `../`)
+
+EXTERNAL SOURCES:
+  WorksStoryboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WorksStoryboard: a2aafea7b4b6fbe4ad73605e64ebfcce23063090
+
+COCOAPODS: 0.39.0

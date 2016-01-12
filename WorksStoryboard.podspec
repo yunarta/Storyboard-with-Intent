@@ -8,31 +8,27 @@
 
 Pod::Spec.new do |s|
   s.name             = "WorksStoryboard"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of WorksStoryboard."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.version          = "1.0.0"
+  s.summary          = "Storyboard helper classes"
   s.description      = <<-DESC
+                            Storyboard toolbox
+                             pod 'WorksStoryboard'
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/WorksStoryboard"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Yunarta Kartawahyudi" => "yunarta@vcube.co.jp" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/WorksStoryboard.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = "https://github.com/yunarta/WorksStoryboard"
+  s.license          = 'Apache 2.0'
+  s.author           = { "Yunarta Kartawahyudi" => "yunarta.kartawahyudi@gmail.com" }
+  s.source           = { :git => "https://github.com/yunarta/WorksStoryboard.git", :tag => "v" + s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/tyunarta'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'WorksStoryboard' => ['Pod/Assets/*.png']
-  }
+
+  # s.resource_bundles = {
+  #   'WorksStoryboard' => ['Pod/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
