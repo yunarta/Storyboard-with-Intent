@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'WorksStoryboard_Example', :exclusive => true do
+target 'WorksStoryboarpod repo push vcube --sources='git@bitbucket.org:v-cube/repository_podspecs.git,https://github.com/CocoaPods/Specs' --private --allow-warnings QuickCameraWidget.podspecd_Example', :exclusive => true do
   pod "WorksStoryboard", :path => "../"
 end
 
