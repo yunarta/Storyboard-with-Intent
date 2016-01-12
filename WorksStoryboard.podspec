@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WorksStoryboard"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Storyboard helper classes"
   s.description      = <<-DESC
                             Storyboard toolbox
