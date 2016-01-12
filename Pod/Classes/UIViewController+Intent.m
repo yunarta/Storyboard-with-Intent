@@ -13,7 +13,7 @@ static const void *ArgumentsTagKey = &ArgumentsTagKey;
 
 - (void)setIntent:(WSIntent *)intent
 {
-    objc_setAssociatedObject(self, ArgumentsTagKey, intent, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, ArgumentsTagKey, intent, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (WSIntent *)intent
