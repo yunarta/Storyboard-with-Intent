@@ -8,6 +8,6 @@
 
 @interface UIViewController (Intent)
 
-@property(nonatomic, copy) WSIntent *arguments;
+@property(nonatomic, copy) WSIntent *intent;
 
 @end
