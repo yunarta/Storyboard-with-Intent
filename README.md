@@ -1,4 +1,6 @@
-# WorksStoryboard
+# Storyboard with Intent
+
+Adding Intent to all UIViewController, allowing common way of passing intention to UIViewControllers
 
 [![CI Status](http://img.shields.io/travis/Yunarta Kartawahyudi/WorksStoryboard.svg?style=flat)](https://travis-ci.org/Yunarta Kartawahyudi/WorksStoryboard)
 [![Version](https://img.shields.io/cocoapods/v/WorksStoryboard.svg?style=flat)](http://cocoapods.org/pods/WorksStoryboard)
